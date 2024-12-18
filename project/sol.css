@@ -157,7 +157,7 @@ body {
         color: grey;
         text-align:justify;
     }
-    button:hover {
+    button:focus {
         translate:10px -10px;
         transform: scaleY(1.5);
         background: rgb(255, 236, 138);
