@@ -1,0 +1,154 @@
+body {
+    font-family: georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../images/ito.jpeg') ;
+
+    header {
+        background-color: hsl(32, 100%, 87%);
+        padding: 1rem;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:rgb(254, 227, 197);
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align:center;
+        float: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .hero {
+        background-color:rgb(252, 235, 217);
+        padding: 2rem;
+        text-align: center;
+        font: georgia;
+        font-size: 25px;
+    }
+
+    .lol {
+        font-size: 15px;
+        margin-bottom: 1rem;
+        font: georgia;
+    }
+
+    button {
+        background-color: #fcb29d;
+        color: rgb(27, 25, 25);
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .featured-image img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    h2 {
+        background-color: #fcb29d;
+        text-align: center;
+        margin-right: 35px;
+        margin-left: 25px;
+        border-radius: 5px;
+
+    }
+    .products {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+    }
+
+    .description {
+        text-align: center;
+        font: georgia;
+        font-size: medium;
+        float: center;
+        margin-right: 30px;
+        margin-left: 20px;
+        border-right: 30px;
+        background-color:rgb(255, 213, 196);
+        color: white;
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: #ffffff;
+    }
+
+    h3 { 
+        background-color:rgb(234, 156, 125);
+        font-size: 20px;
+        text-align:center;
+        color:white;
+        display: inline-blocks;
+    }
+
+    .problem {
+        float: left;
+        text-align: center;
+        color: black;
+        margin-right: 15px;
+        background-color: rgb(255, 228, 228);
+        color: white;
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: #ffffff;
+    }
+
+    h4 {
+        background-color: rgb(250, 184, 184);
+        font-size:20px;
+    }
+
+    .problem img {
+        max-width: 100%;
+        height: auto;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .atq{
+        margin:20px;
+        color:grey;
+        text-align: justify;
+    }
+
+    .descriptions{
+        margin:10px;
+        color: grey;
+       }
+
+    a[traget="bbg"]{
+        background-color:aqua;
+    }
+
+    a {
+        position: relative;
+        left: 10px;
+        border: 3px solid #65dee9;
+    }
+    
+    #no {
+        width: 40px;
+        height: 30px;
+        background: url(../images/nooo.jpg) no-repeat 0 0;
+        margin-left: 10px;
+        animation: varName 2s steps(3) infinite;
+    }
+
+    @keyframes varName {
+        0% {background-position: -70px;}
+        100%{background-position: 0px;}
+    }
+}
