@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-/* Header and Tagline */
+
 header {
   background-color: #fde3c1;
   padding: 1rem;
@@ -22,7 +22,7 @@ header {
   margin-bottom: 1rem;
 }
 
-/* Navigation */
+
 nav {
   display: flex;
   justify-content: center;
@@ -35,7 +35,7 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  gap: 2.5rem; /* Equal spacing between all nav items */
+  gap: 2.5rem; 
   padding: 0;
   margin: 0;
 }
@@ -56,20 +56,17 @@ nav a button {
   border-radius: 5px;
 }
 
-/* Hero Section */
 .hero {
   background-color: rgb(252, 235, 217);
   padding: 2rem;
   font-size: 25px;
 }
 
-/* Featured Image */
 .featured-image img {
   width: 100%;
   height: auto;
 }
 
-/* Section Headers */
 h2 {
   background-color: #fcb29d;
   text-align: center;
@@ -79,7 +76,6 @@ h2 {
   color: #1b1919;
 }
 
-/* Products Section */
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -99,7 +95,6 @@ h2 {
   text-align: left;
 }
 
-/* Alternate problem backgrounds */
 .problem {
   background-color: rgb(250, 184, 184);
 }
@@ -108,7 +103,6 @@ h2 {
   background-color: rgb(252, 240, 175);
 }
 
-/* Headings inside sections */
 h3, h4, h5 {
   text-align: center;
   color: white;
@@ -133,7 +127,6 @@ h5 {
   color: black;
 }
 
-/* Paragraph Styles */
 .atq, .atqj, .descriptions {
   margin: 10px 20px;
   text-align: justify;
@@ -145,7 +138,6 @@ h5 {
   height: auto;
 }
 
-/* Form Layout (used in signup/profile pages) */
 .form-container, .profile-info {
   margin: 2rem auto;
   max-width: 600px;
@@ -169,7 +161,6 @@ input, textarea {
   border-radius: 5px;
 }
 
-/* Reusable Button */
 button {
   background-color: #fcb29d;
   color: #1b1919;
@@ -187,13 +178,11 @@ button:focus {
   transition: all 0.3s ease;
 }
 
-/* Error Message */
 .error {
   color: red;
   font-size: 0.9rem;
 }
 
-/* Footer */
 footer {
   background-color: #fde3c1;
   padding: 1rem;
