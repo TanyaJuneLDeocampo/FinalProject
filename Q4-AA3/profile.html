@@ -29,7 +29,6 @@
   </main>
 
   <script>
-    // Display the stored user information
     document.getElementById('displayName').textContent = localStorage.getItem('firstName') || '';
     document.getElementById('fullName').textContent = (localStorage.getItem('firstName') || '') + " " + (localStorage.getItem('lastName') || '');
     document.getElementById('emailDisplay').textContent = localStorage.getItem('email') || '';
@@ -38,4 +37,3 @@
   </script>
 </body>
 </html>
-
