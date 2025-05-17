@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-/* Navigation */
+
 nav {
     display: flex;
     justify-content: center;
@@ -18,12 +18,12 @@ nav {
 }
 
 nav ul li.home-btn {
-    margin-right: 1rem; /* or any value you prefer */
+    margin-right: 1rem; 
 }
 
 
 
-/* Hero section */
+
 .hero {
     background-color: rgb(252, 235, 217);
     padding: 2rem;
@@ -32,7 +32,7 @@ nav ul li.home-btn {
     font-size: 25px;
 }
 
-/* Quiz container */
+
 .quiz-container {
     max-width: 600px;
     background-color: rgb(255, 213, 196);
@@ -44,7 +44,6 @@ nav ul li.home-btn {
     color: white;
 }
 
-/* Headings */
 h1 {
     background-color: rgb(234, 156, 125);
     font-size: 24px;
@@ -54,7 +53,6 @@ h1 {
     border-radius: 5px;
 }
 
-/* Buttons */
 button {
     background-color: #fcb29d;
     color: rgb(27, 25, 25);
@@ -73,7 +71,6 @@ button:focus {
     background: rgb(255, 236, 138);
 }
 
-/* Option buttons */
 #options button {
     display: block;
     width: 100%;
@@ -106,7 +103,6 @@ button:focus {
     cursor: pointer;
 }
 
-/* Utility */
 .hidden {
     display: none;
 }
