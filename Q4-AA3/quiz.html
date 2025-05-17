@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDG Education Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="w3-bar-item w3-button"><button>Home</button></a>
+            <ul>
+                <a href="solutions.html" class="w3-bar-item w3-button"><button>Solutions</button></a>
+                <a href="statistics.html" class="w3-bar-item w3-button"><button>Statistics</button></a>
+                <a href="signup.html" class="w3-bar-item w3-button"><button>Sign-up Form</button></a>
+              </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="welcome-box" class="quiz-container">
+        <h1>Welcome to the Equality in Education Quiz!</h1>
+        <p>Test your knowledge about the challenges and solutions in education.</p>
+        <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz-box" class="quiz-container hidden">
+        <h1>Equality for Education Quiz</h1>
+        <p id="question-text"></p>
+        <div id="options"></div>
+        <button id="next-btn">Next</button>
+    </div>
+
+    <div id="result-box" class="quiz-container hidden">
+        <h2>Quiz Completed!</h2>
+        <p id="score-text"></p>
+        <button onclick="restartQuiz()">Restart Quiz</button>
+    </div>
+
+    
+
+    <script src="quiz.js"></script>
+</body>
+</html>

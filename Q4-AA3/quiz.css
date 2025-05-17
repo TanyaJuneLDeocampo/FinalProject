@@ -1,0 +1,112 @@
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('ito.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 227, 197);
+    padding: 1rem;
+}
+
+nav ul li.home-btn {
+    margin-right: 1rem; /* or any value you prefer */
+}
+
+
+
+/* Hero section */
+.hero {
+    background-color: rgb(252, 235, 217);
+    padding: 2rem;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+/* Quiz container */
+.quiz-container {
+    max-width: 600px;
+    background-color: rgb(255, 213, 196);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 2rem auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border: 2px dashed white;
+    color: white;
+}
+
+/* Headings */
+h1 {
+    background-color: rgb(234, 156, 125);
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Buttons */
+button {
+    background-color: #fcb29d;
+    color: rgb(27, 25, 25);
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+button:focus {
+    transform: scale(1.1);
+    background: rgb(255, 236, 138);
+}
+
+/* Option buttons */
+#options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.correct {
+    background-color: #8bc34a;
+    color: white;
+}
+
+.incorrect {
+    background-color: #ff5252;
+    color: white;
+}
+
+#start-btn, #next-btn {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Utility */
+.hidden {
+    display: none;
+}

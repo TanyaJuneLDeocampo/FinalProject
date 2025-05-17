@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Signup | Equality for Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="w3-bar-item w3-button"><button>Home</button></a>
+      <ul>
+        <li><a href="solutions.html" class="w3-bar-item w3-button"><button>Solutions</button></a></li>
+        <li><a href="statistics.html" class="w3-bar-item w3-button"><button>Statistics</button></a></li>
+        <li><a href="#Resources" class="w3-bar-item w3-button"><button>Resources</button></a></li>
+        <li><a href="quiz.html" class="w3-bar-item w3-button"><button>Quiz</button></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Equality for Education</h1>
+    <p class="tagline">"Education for All: Every Mind Matters."</p>
+  </section>
+
+  <main class="form-container">
+    <h2>Join the Movement</h2>
+    <p>Be part of a campaign that fights for accessible, inclusive, and quality education.</p>
+
+    <form id="signup-form">
+      <label>First Name* <input type="text" id="firstName" required></label><span class="error" id="firstNameError"></span><br>
+      <label>Last Name* <input type="text" id="lastName" required></label><span class="error" id="lastNameError"></span><br>
+      <label>Sex*<br>
+        <input type="radio" name="sex" value="Male"> Male
+        <input type="radio" name="sex" value="Female"> Female
+        <input type="radio" name="sex" value="Prefer not to say"> Prefer not to say
+      </label><span class="error" id="sexError"></span><br>
+      <label>Email* <input type="email" id="email" required></label><span class="error" id="emailError"></span><br>
+      <label>Password* <input type="password" id="password" required></label><span class="error" id="passwordError"></span><br>
+      <label>Contact Number <input type="text" id="contact"></label><br>
+      <label>Why are you supporting this campaign?*<br>
+        <textarea id="reason" required></textarea>
+      </label><span class="error" id="reasonError"></span><br><br>
+
+      <button type="submit">Sign Up Now</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

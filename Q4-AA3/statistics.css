@@ -1,0 +1,173 @@
+body {
+    font-family: georgia, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('ito.jpeg') ;
+
+    header {
+        background-color: hsl(32, 100%, 87%);
+        padding: 1rem;
+    }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:rgb(254, 227, 197);
+    }
+
+    nav ul {
+        list-style-type: none;
+        text-align:center;
+        float: none;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .hero {
+        background-color:rgb(252, 235, 217);
+        padding: 2rem;
+        text-align: center;
+        font: georgia;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    button {
+        background-color: #fcb29d;
+        color: rgb(27, 25, 25);
+        border: none;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+
+    .featured-image img {
+        width: 95%;
+        height: 500px;
+        margin-left: 15px;
+        margin-right:15px;
+        margin-top: 15px;
+
+
+    }
+
+    h2 {
+        background-color: #fcb29d;
+        text-align: center;
+        margin-right: 35px;
+        margin-left: 25px;
+        border-radius: 5px;
+
+    }
+    .products {
+        display: flex;
+        justify-content: space-around;
+        padding: 2rem;
+        
+    }
+
+    .description {
+        text-align:left;
+        font: georgia;
+        font-size: medium;
+        margin-right: 20px;
+        margin-left: 20px;
+        border-right: 20px;
+        color: white;
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: #ffffff;
+        background-color:#eec1b5;
+
+
+    }
+
+    h3 { 
+        background-color:rgb(234, 156, 125);
+        font-size: 20px;
+        text-align:center;
+        color:white;
+        display: inline-blocks;
+    }
+
+    .problem {
+        text-align: left;
+        font: georgia;
+        font-size: medium;
+        margin-right: 30px;
+        margin-left: 20px;
+        border-right: 30px;
+        background-color:rgb(255, 213, 196);
+        color: white;
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: #ffffff;
+        background-color: rgb(250, 184, 184);
+    }
+
+    h4 { 
+        background-color:rgb(237, 128, 128);
+        font-size: 18px;
+        text-align:center;
+        color:white;
+        display: inline-blocks;
+    }
+
+    .problems {
+        text-align: left;
+        font: georgia;
+        font-size: medium;
+        margin-right: 30px;
+        margin-left: 20px;
+        border-right: 30px;
+        background-color:rgb(255, 213, 196);
+        color: white;
+        border-radius: 5px;
+        border-width: 2px;
+        border-style: dashed;
+        border-color: #ffffff;
+        background-color: rgb(252, 240, 175);
+    }
+
+    h5 {
+        background-color:rgb(248, 234, 84);
+        font-size: 20px;
+        text-align:center;
+        color:white;
+        display: inline-blocks;
+    }
+    .atq{
+        margin:20px;
+        color:grey;
+        text-align: justify;
+    }
+
+    .descript{
+        margin:10px;
+        color: grey;
+        text-align:justify;
+        font-size: larger;
+        height: 80px;
+        background-color:#eec1b5;
+        display:inline-block;
+    }
+
+    .atqj {
+        margin:10px;
+        color: grey;
+        text-align:justify;
+    }
+    button:hover {
+        translate:10px -10px;
+        transform: scaleY(1.5);
+        background: rgb(255, 236, 138);
+        transition-duration: width 3s;
+        width: 200px;
+    }
+    
+}

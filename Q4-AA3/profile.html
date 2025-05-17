@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile | Equality for Education</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html"><button>Home</button></a>
+      <ul>
+        <li><a href="solutions.html"><button>Solutions</button></a></li>
+        <li><a href="statistics.html"><button>Statistics</button></a></li>
+        <li><a href="signup.html"><button>Signup</button></a></li>
+      </ul>
+    </nav>
+    <h1>Welcome, <span id="displayName"></span>!</h1>
+    <p class="tagline">Thank you for supporting equitable education.</p>
+  </header>
+
+  <main class="profile-info">
+    <h2>Your Information</h2>
+    <p><strong>Full Name:</strong> <span id="fullName"></span></p>
+    <p><strong>Email:</strong> <span id="emailDisplay"></span></p>
+    <p><strong>Sex:</strong> <span id="sexDisplay"></span></p>
+    <p><strong>Your Reason:</strong> <span id="reasonDisplay"></span></p>
+  </main>
+
+  <script>
+    // Display the stored user information
+    document.getElementById('displayName').textContent = localStorage.getItem('firstName') || '';
+    document.getElementById('fullName').textContent = (localStorage.getItem('firstName') || '') + " " + (localStorage.getItem('lastName') || '');
+    document.getElementById('emailDisplay').textContent = localStorage.getItem('email') || '';
+    document.getElementById('sexDisplay').textContent = localStorage.getItem('sex') || '';
+    document.getElementById('reasonDisplay').textContent = localStorage.getItem('reason') || '';
+  </script>
+</body>
+</html>
+

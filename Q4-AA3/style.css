@@ -1,0 +1,201 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('ito.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  text-align: center;
+}
+
+/* Header and Tagline */
+header {
+  background-color: #fde3c1;
+  padding: 1rem;
+}
+
+.tagline, .lol {
+  font-style: italic;
+  color: #555;
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(254, 227, 197);
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2.5rem; /* Equal spacing between all nav items */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav a button {
+  background-color: #fcb29d;
+  color: rgb(27, 25, 25);
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: rgb(252, 235, 217);
+  padding: 2rem;
+  font-size: 25px;
+}
+
+/* Featured Image */
+.featured-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Section Headers */
+h2 {
+  background-color: #fcb29d;
+  text-align: center;
+  margin: 1rem 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #1b1919;
+}
+
+/* Products Section */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.description, .problem, .problems {
+  flex: 1 1 45%;
+  background-color: rgb(255, 213, 196);
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  border: 2px dashed #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+/* Alternate problem backgrounds */
+.problem {
+  background-color: rgb(250, 184, 184);
+}
+
+.problems {
+  background-color: rgb(252, 240, 175);
+}
+
+/* Headings inside sections */
+h3, h4, h5 {
+  text-align: center;
+  color: white;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+h3 {
+  background-color: rgb(234, 156, 125);
+  font-size: 20px;
+}
+
+h4 {
+  background-color: rgb(237, 128, 128);
+  font-size: 18px;
+}
+
+h5 {
+  background-color: rgb(248, 234, 84);
+  font-size: 20px;
+  color: black;
+}
+
+/* Paragraph Styles */
+.atq, .atqj, .descriptions {
+  margin: 10px 20px;
+  text-align: justify;
+  color: grey;
+}
+
+.descriptions {
+  font-size: larger;
+  height: auto;
+}
+
+/* Form Layout (used in signup/profile pages) */
+.form-container, .profile-info {
+  margin: 2rem auto;
+  max-width: 600px;
+  background-color: #fffaf0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Reusable Button */
+button {
+  background-color: #fcb29d;
+  color: #1b1919;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+button:focus {
+  transform: scale(1.05);
+  background: rgb(255, 236, 138);
+  transition: all 0.3s ease;
+}
+
+/* Error Message */
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+  background-color: #fde3c1;
+  padding: 1rem;
+  margin-top: 2rem;
+}
